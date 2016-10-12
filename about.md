@@ -3,28 +3,46 @@ layout: page
 title: About
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+This "handbook" covers what a college student might encounter
+in the early months of a first-year college course for Python programming. 
+The topics covered herein are meant for:
+* students
+* self-learners
+* those learning for fun or to make a career change
+* **anyone learning programming basics through Python version 3**
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+To make the most of this handbook, readers should have access to a computer that has the Python interpreter installed on it, and they should have access to other learning materials, curriculum, or instructors to act as primary guides for their learning.
 
-There are currently two themes built on Poole:
+Hopefully this site will help you take the first bold steps along a very rewarding path.
 
-* [Hyde](https://hyde.getpoole.com)
-* [Lanyon](https://lanyon.getpoole.com)
+# Sections
+The handbook is split into three sections:
+* **Concepts** covers some of the major concepts that you will encounter in Python and in other programming languages. 
+* **Instructions** covers some common tasks that beginning students might be asked to complete. 
+* **Quick Reference** offers tables and lists for those moments when you need to quickly find information about things such as built-in functions, methods to use with lists, syntax rules, variable naming rules, etc.
 
-Learn more and contribute on [GitHub](https://github.com/poole).
+# Topics *not* covered here
+**This site not an exhaustive guide to Python**. It is merely a supplemental
+resource to use with other curriculum or learning materials. 
 
-## Setup
+Topics which are not covered (either in depth or at all) in this handbook include, *but are not limited to*:
+* practice exercises
+* installing the Python interpreter
+* object-oriented programming
+* exceptions
+* error handling
+* input validation
+* classes
+* inheritance
+* recursion
+* GUI
+* sets
+* modules
+* data types that are not built-in
+* reading/writing file data
 
-Some fun facts about the setup of this project include:
+# Good luck!
+Hopefully, this handbook will help you as you begin your journey into programming. **Stick with it.** There is a whole online community of programmers eager to exchange knowledge and skills with new programmers, and eager to see what new programmers have to contribute. **Best of luck, and keep on learning.**
 
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
+Questions or suggestions? [Open an issue on GitHub](https://github.com/lilhandsbgdreams/python-handbook/issues/new).
 
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!

@@ -67,12 +67,13 @@ html {
     bottom: 0;
     width: 18rem;
     text-align: left;
+    overflow-y: scroll;
   }
 }
 
 /* Sidebar links */
 .sidebar a {
-  color: #fff;
+  color: #fefecd;
 }
 
 /* About section */
@@ -80,7 +81,7 @@ html {
   color: #fff;
   margin-top: 0;
   font-family: "Abril Fatface", serif;
-  font-size: 3.25rem;
+  font-size: 2.5rem;
 }
 
 /* Sidebar nav */
