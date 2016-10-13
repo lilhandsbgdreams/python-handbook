@@ -2,36 +2,67 @@
 layout: default
 title: Home
 ---
-
 <div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
-
-    <span class="post-date">{{ post.date | date_to_string }}</span>
-
-    {{ post.content }}
+  <div>
+    <h1>Python Beginner's Handbook</h1>
+    <p>This "handbook" is meant as a supplemental resource for anyone
+    starting to learn Python programming. The topics covered
+    herein are meant for:</p>
+     <ul>
+       <li>self-learners</li>
+       <li>students (particularly those in a first-year college course for Python)</li>
+       <li>those learning for fun or to make a career change</li>
+       <li><b>anyone learning programming basics through Python version 3</b></li>
+     </ul>
+     <p>To make the most of this handbook, readers should have access to
+     a computer that has the Python interpreter installed on it, and they
+     should have access to other learning materials, curriculum, or
+     instructors to act as primary guides for their learning.</p>
+     <p>Hopefully this site will help you take the first bold steps along
+     a very rewarding path.</p>
   </div>
-  {% endfor %}
+  <div>
+    <h1>Sections</h1>
+    <p>The handbook is split into three sections:</p>
+    <ul>
+      <li><b>Concepts</b> covers some of the major concepts that you will encounter in Python and in other programming languages. </li>
+      <li><b>Instructions</b> covers some common tasks that beginning students might be asked to complete. </li>
+      <li><b>Quick Reference</b> offers tables and lists for those moments when you need to quickly find information about things such as built-in functions, methods to use with lists, syntax rules, variable naming rules, etc.</li>
+    </ul>
+  </div>
+  <div>
+    <h1>Topics <i>not</i> covered here</h1>
+    <p><b>This site not an exhaustive guide to Python.</b> It is
+    merely a supplemental resource to use with other curriculum
+    or learning materials.</p>
+    <p><b>Topics which are not covered</b> (either in depth or at all)
+    in this handbook include, <i>but are not limited to</i>:</p>
+    <ul>
+      <li>practice exercises</li>
+      <li>installing the Python interpreter</li>
+      <li>object-oriented programming</li>
+      <li>exceptions</li>
+      <li>error handling</li>
+      <li>input validation</li>
+      <li>classes</li>
+      <li>inheritance</li>
+      <li>recursion</li>
+      <li>GUI</li>
+      <li>sets</li>
+      <li>modules</li>
+      <li>data types that are not built-in</li>
+      <li>reading/writing file data</li>
+    </ul>
+  </div>
+  <div>
+    <h1>Good luck!</h1>
+    <p>Hopefully, this handbook will help you as you begin your journey
+    into programming. <b>Stick with it.</b> There is a whole online
+    community of programmers eager to exchange knowledge and skills
+    with new programmers, and eager to see what new programmers have
+    to contribute. <b>Best of luck, and keep on learning.</b></p>
+    <br>
+    <p>Questions or suggestions? <a href="https://github.com/lilhandsbgdreams/python-handbook/issues/new">Open an issue on GitHub.</a></p>
+  </div>
 </div>
 
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}">Newer</a>
-    {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
-</div>

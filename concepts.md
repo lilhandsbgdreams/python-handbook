@@ -3,8 +3,7 @@ layout: page
 title: Concepts
 ---
 
-This section covers some concepts that are shared by many programming
-languages. Here you'll learn they are handled through Python in particular.
+Covers some basic concepts that you'll encounter in Python and other languages. As you get further in your learning, you'll discover that the concepts listed here are just the beginning.
 
 1. [Control structures](#controlstructures)
 2. [Functions](#functions)
@@ -14,7 +13,7 @@ languages. Here you'll learn they are handled through Python in particular.
 
 # <a name="controlstructures">Control structures</a>
 
-A control structure refers to one of three logical designs determine the order that statements execute in a program, as seen in [Figure 1](#structuresimage).
+A control structure refers to one of three logical designs that determine the order in which statements execute in a program, as seen in [Figure 1](#structuresimage).
 
 <a name="structuresimage">![control structures](https://raw.githubusercontent.com/lilhandsbgdreams/python-handbook/master/public/control_structures.gif "control structures")</a>
 <sub><sup>**Figure 1**. Diagram of the three programming structures. \[Author unknown\]. PL/SQL User's Guide and Reference. http://docs.oracle.com/cd/A87860_01/doc/appdev.817/a77069/03_struc.htm.</sup></sub>
@@ -36,7 +35,7 @@ A function is a collection of statements within a program that is designed to do
 
 Creating functions is referred to as defining a function. A function definition in Python looks like this:
 
-{% highlight js %}
+{% highlight py %}
 def function_name(parameter1, parameter2, ...)
     statements...
 {% endhighlight %}
@@ -47,7 +46,7 @@ Keep in mind that not all functions have to receive parameters. Not all function
 
 Input is data that is entered by the user of your program. A username entered into a game, a price entered into a digital cash register, or even a phrase typed into Google are all examples of input. Python uses the input() function to take user input. But in order to do something with that input, it must be assigned to a variable that the program can manipulate. Such an assignment statement would look like this: 
 
-{% highlight js %}
+{% highlight py %}
 var_name = input("string to prompt user")
 {% endhighlight %}
 
@@ -72,7 +71,7 @@ Table 1 shows the built-in data types that you are most likely to encounter as y
 |list|List|Sequence|
 |tuple|Tuple|Sequence|
 
-<sub><sup><sup>1</sup>Source: Gaddis, T. (2015). Starting out with python. Boston: Pearson.</sup></sub>
+<sub><sup><sup>1</sup><i>Source:</i> Gaddis, T. (2015). <i>Starting out with python.</i> Boston: Pearson.</sup></sub>
 
 # <a name="sequencetypes">Sequence types</a>
 
@@ -80,7 +79,7 @@ The word sequence can be used to describe a control structure, but it is also a 
 
 The general syntax for a list looks something like this:
 
-{% highlight js %}
+{% highlight py %}
 list_name = [element0, element1, ...]
 {% endhighlight %}
 
@@ -88,7 +87,7 @@ The data stored in a list is referred to as an element of that list. A list can,
 
 The general syntax for a tuple looks something like this:
 
-{% highlight js %}
+{% highlight py %}
 tuple_name = (element0, element1, ...)
 {% endhighlight %}
 
@@ -102,8 +101,8 @@ When working with both lists and tuples, you'll often find the need to take out 
 ##### References
 Built-in functions. (2015, November 23). Retrieved November 16, 2015 from https://docs.python.org/3/library/functions.html
 
-Gaddis, T. (2015). Starting out with python. Boston: Pearson.
+Gaddis, T. (2015). <i>Starting out with python.</i> Boston: Pearson.
 
-Langley, N. (2003). Python programs for beginners. Computer Weekly, 40. 
+Langley, N. (2003). Python programs for beginners. <i>Computer Weekly</i>, 40. 
 
 \[Untitled diagram of the three programming structures\]. (n.d.). Retrieved from http://docs.oracle.com/cd/A87860_01/doc/appdev.817/a77069/03_struc.htm
