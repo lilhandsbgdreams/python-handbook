@@ -1,118 +1,35 @@
-# Hyde
+#Python Beginner's Handbook
+The [Python Beginner's Handbook](https://lilhandsbgdreams.github.io/python-handbook/) is written as a supplemental resource for anyone starting to learn Python programming. The topics covered in it are meant for
 
-Hyde is a brazen two-column [Jekyll](http://jekyllrb.com) theme that pairs a prominent sidebar with uncomplicated content. It's based on [Poole](http://getpoole.com), the Jekyll butler.
+* self-learners
+* students (particularly those in a first-year college course for Python)
+* those learning for fun or to make a career change
+* **anyone learning programming basics through Python version 3**
 
-![Hyde screenshot](https://f.cloud.github.com/assets/98681/1831228/42af6c6a-7384-11e3-98fb-e0b923ee0468.png)
+To make the most of this handbook, readers should have access to a computer that has the Python interpreter installed on it, and they should have access to other learning materials, curriculum, or instructors to act as primary guides for their learning.
 
+Hopefully this site will help you take the first bold steps along a very rewarding path.
 
-## Contents
+#Sections
 
-- [Usage](#usage)
-- [Options](#options)
-  - [Sidebar menu](#sidebar-menu)
-  - [Sticky sidebar content](#sticky-sidebar-content)
-  - [Themes](#themes)
-  - [Reverse layout](#reverse-layout)
-- [Development](#development)
-- [Author](#author)
-- [License](#license)
+The handbook is split into three sections
 
+* **Concepts** covers some of the major concepts that you will encounter in Python and in other programming languages.
+* **Instructions** covers some common tasks that beginning students might be asked to complete.
+* **Quick Reference** offers tables and lists for those moments when you need to quickly find information about things such as built-in functions, methods to use with lists, syntax rules, variable naming rules, etc.
 
-## Usage
+#Topics *not* covered here
 
-Hyde is a theme built on top of [Poole](https://github.com/poole/poole), which provides a fully furnished Jekyll setup—just download and start the Jekyll server. See [the Poole usage guidelines](https://github.com/poole/poole#usage) for how to install and use Jekyll.
+**This site not an exhaustive guide to Python.** It is merely a supplemental resource to use with other curriculum or learning materials.
 
+**Topics which are not covered** (either in depth or at all) in this handbook include, *but are not limited to* practice exercises, installing the Python interpreter, object-oriented programming, exceptions, error handling, input validation, classes, inheritance, recursion, GUI,  sets, modules, data types that are not built-in, and reading/writing file data.
 
-## Options
+#Good luck!
 
-Hyde includes some customizable options, typically applied via classes on the `<body>` element.
+Hopefully, this handbook will help you as you begin your journey into programming. **Stick with it.** There is a whole online community of programmers eager to exchange knowledge and skills with new programmers, and eager to see what new programmers have to contribute. **Best of luck, and keep on learning.**
 
-
-### Sidebar menu
-
-Create a list of nav links in the sidebar by assigning each Jekyll page the correct layout in the page's [front-matter](http://jekyllrb.com/docs/frontmatter/).
-
-```
 ---
-layout: page
-title: About
+Questions or suggestions? [Open an issue in this repo](https://github.com/lilhandsbgdreams/python-handbook/issues/new)
+
 ---
-```
-
-**Why require a specific layout?** Jekyll will return *all* pages, including the `atom.xml`, and with an alphabetical sort order. To ensure the first link is *Home*, we exclude the `index.html` page from this list by specifying the `page` layout.
-
-
-### Sticky sidebar content
-
-By default Hyde ships with a sidebar that affixes it's content to the bottom of the sidebar. You can optionally disable this by removing the `.sidebar-sticky` class from the sidebar's `.container`. Sidebar content will then normally flow from top to bottom.
-
-```html
-<!-- Default sidebar -->
-<div class="sidebar">
-  <div class="container sidebar-sticky">
-    ...
-  </div>
-</div>
-
-<!-- Modified sidebar -->
-<div class="sidebar">
-  <div class="container">
-    ...
-  </div>
-</div>
-```
-
-
-### Themes
-
-Hyde ships with eight optional themes based on the [base16 color scheme](https://github.com/chriskempson/base16). Apply a theme to change the color scheme (mostly applies to sidebar and links).
-
-![Hyde in red](https://f.cloud.github.com/assets/98681/1831229/42b0b354-7384-11e3-8462-31b8df193fe5.png)
-
-There are eight themes available at this time.
-
-![Hyde theme classes](https://f.cloud.github.com/assets/98681/1817044/e5b0ec06-6f68-11e3-83d7-acd1942797a1.png)
-
-To use a theme, add anyone of the available theme classes to the `<body>` element in the `default.html` layout, like so:
-
-```html
-<body class="theme-base-08">
-  ...
-</body>
-```
-
-To create your own theme, look to the Themes section of [included CSS file](https://github.com/poole/hyde/blob/master/public/css/hyde.css). Copy any existing theme (they're only a few lines of CSS), rename it, and change the provided colors.
-
-### Reverse layout
-
-![Hyde with reverse layout](https://f.cloud.github.com/assets/98681/1831230/42b0d3ac-7384-11e3-8d54-2065afd03f9e.png)
-
-Hyde's page orientation can be reversed with a single class.
-
-```html
-<body class="layout-reverse">
-  ...
-</body>
-```
-
-
-## Development
-
-Hyde has two branches, but only one is used for active development.
-
-- `master` for development.  **All pull requests should be submitted against `master`.**
-- `gh-pages` for our hosted site, which includes our analytics tracking code. **Please avoid using this branch.**
-
-
-## Author
-
-**Mark Otto**
-- <https://github.com/mdo>
-- <https://twitter.com/mdo>
-
-
-## License
-
-Open sourced under the [MIT license](LICENSE.md).
-
-<3
+Built using the [Hyde Theme for Jekyll](https://github.com/JuanjoSalvador/hyde)
