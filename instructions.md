@@ -22,6 +22,7 @@ x >= 10 and x <= 15
 {% endhighlight %}
 
 Follow these steps to create a statement like the one above:
+
 1. **Determine the range that your variable should be within.** You'll need to know the lowest and highest integers that the variable could equal.
 2. **Type a relational statement that checks whether a variable is greater than or equal to the low end of your range.** For example, if 10 is the smallest number that the variable x can equal in order for this relational statement to be true, you'd type:
 `x >= 10`
@@ -36,6 +37,7 @@ x < 10 or x > 15
 {% endhighlight %}
 
 Follow these steps to create a statement like the one above:
+
 1. **Determine the range that your variable should be outside of.** You'll need to know the lowest and highest integers that the variable should not equal.
 2. **Type a relational statement that checks whether the variable is less than the low end of your range.** For example, if variable `x` can equal anything lower than, but excluding, `10`, you'd type: `x < 10`
 3. **Type `or` into your statement.** You'll use the `or` logical operator because you want to make sure that the variable is either less than another integer *or* greater than yet another integer.
@@ -53,6 +55,7 @@ def function_name(parameter1, parameter2, ...):
 {% endhighlight %}
 
 To define your own function:
+
 1. **First, you need to know what your function should do and how it should do it.** You should know:
    * **The inputs your function will take in.** These could be parameters passed to it or variables assigned to user inputs within the function.
    * **The processes it should perform on those inputs.** What steps will your function take to accomplish its task? You should consider the control structures discussed earlier in this handbook.
@@ -74,6 +77,7 @@ func_name(argument1, argument2, ...)
 {% endhighlight %}
 
 To call a function that has been defined:
+
 1. **Type the function's name.**
 2. **Type `()`, then:**
    * **If the function accepts arguments, type values or variable names into the parentheses.** How many arguments you type depends on how many paramenters the function accepts. To know if the function accepts arguments, and how many, look at the function's header for parameters. You will have to research how many arguments a built-in function takes.
@@ -92,6 +96,7 @@ for var_name in [sequence_item1, seq_item2, ...]:
 <p class="message"><b>Caution:</b><br>Before executing code that involves loops, make sure that your loop's logic and statements have a way of reaching an end and terminating. Infinite loops that have no way of terminating may cause the computer to freeze or crash.</p>
 
 To write your own for loop:
+
 1. **Write the first line.**
    * **Type `for` to indicate the loop type.**
    * **Type a target variable name that will hold a different value from the list each time the loop iterates.** This target variable is only a shorthand way for the loop to reference the data that it's processing from the list. So, remember that it will only exist within the loop and is meaningless to any statements outside the loop.
@@ -122,6 +127,7 @@ while condition:
 <p class="message"><b>Caution:</b><br>Before executing code that involves loops, make sure that your loop's logic and statements have a way of reaching an end and terminating. Infinite loops that have no way of terminating may cause the computer to freeze or crash.</p>
 
 To write your own `while` loop:
+
 1. **Write the first line.**
    * **Type `while` to indicate the loop type.**
    * **Type a statement that serves as the condition.** As long as this condition is true, the loop will iterate. This can statement can look something like:
