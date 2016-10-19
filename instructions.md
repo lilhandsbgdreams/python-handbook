@@ -37,7 +37,7 @@ x < 10 or x > 15
 
 Follow these steps to create a statement like the one above:
 1. **Determine the range that your variable should be outside of.** You'll need to know the lowest and highest integers that the variable should not equal.
-2. **Type a relational statement that checks whether the variable is less than the low end of your range.** For example, if variable `x` can equal anything lower than, but excluding, `10`, you'd type: ` x < 10`
+2. **Type a relational statement that checks whether the variable is less than the low end of your range.** For example, if variable `x` can equal anything lower than, but excluding, `10`, you'd type: `x < 10`
 3. **Type `or` into your statement.** You'll use the `or` logical operator because you want to make sure that the variable is either less than another integer *or* greater than yet another integer.
 4. **Type a relational statement that checks whether the variable is greater than the high end of your range.** For example, if the variable `x` can equal anything greater than, but not including, `15` , you'd type: `x > 15`.
    <p class="message"><i>Note:</i> In the above example, `x < 10 or x > 15` would be true if `x` were assigned an integer less than or equal to 9 or an integer greater than or equal to 16. However, if `x` were assigned the integer 10, 11, 12, 13, 14 or 15, the statement would be false.</p>
