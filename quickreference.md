@@ -180,6 +180,7 @@ Example slice format | Result | Description
 # <a name="varnaming">Variable naming rules</a>
 
 The following rules must be followed when naming variables in your code.
+
 1. Do not use Python keywords as variable names.
 2. Do not put spaces in variable names.
 3. Variable names must start with a letter between a-z, between A-Z, or an underscore.
