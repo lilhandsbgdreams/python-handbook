@@ -36,7 +36,7 @@ A function is a collection of statements within a program that is designed to do
 Creating functions is referred to as defining a function. A function definition in Python looks like this:
 
 {% highlight py %}
-def function_name(parameter1, parameter2, ...)
+def function_name(parameter1, parameter2, ...):
     statements...
 {% endhighlight %}
 
