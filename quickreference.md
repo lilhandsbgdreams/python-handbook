@@ -56,66 +56,11 @@ Table 3 shows Python's keywords (aka, reserved words). Each of these serves a sp
 
 <sub><sup><sup>1</sup><i>Source:</i> Gaddis, T. (2015). <i>Starting out with python.</i> Boston: Pearson.</sup></sub>
 
-# <a name="opprecedence">Math operator precedence</a>
+# <a name="operators">Math operators</a>
 
-The order of operations in Python is similar to that which you probably learned in math class, except that some operations are grouped into tiers. The following list shows the order in which math operations are performed in Python (Gaddis, 2015):
+Table 4 shows Python's math, relational and logical operators. These can be used to do various things such as perform math operations, write statements, write Boolean expressions, or create control structures.
 
-1. Anything in parenthesis is done first.
-   * `()`
-2. Then exponents are performed.
-   * `**`
-3. Then multiplication, remainder and division operators are performed as they appear from left to right in the statement.
-   * `*` `/` `//` `%` 
-4. Finally, addition and subtraction are performed as they appear from left to right in the statement.
-   * `+` `-`
-
-# <a name="modlists">Modifying lists</a>
-
-Table 4 shows some methods and functions that can be used to modify lists. The table's examples work with the following list:
-
-{% highlight py %}
-my_list = [11, 12, 3, 4, 5]
-{% endhighlight %}
-
-**Table 4. Methods and functions for modifying lists**<sup>1</sup>
-
-|Method or Function|Result|Description|
-|-----------+-----------+-------|
-|<sub>`my_list.append(10)`</sub>|<sup><sub>`[11, 12, 3, 4, 5, 10]`</sub></sup>|<sub>This method appends an item to the list's end.</sub>|
-|<sub>`my_list.insert(2, 10)`</sub>|<sup><sub>`[11, 12, 10, 3, 4, 5]`</sub></sup>|<sub>This method inserts an item (the second argument) into a specific index (indicated by the first argument).</sub>|
-|<sub>`my_list.remove(5)`</sub>|<sup><sub>`[11, 12, 3, 4]`</sub></sup>|<sub>This method looks for an item and removes it from the list.</sub>|
-|<sub>`my_list.index(3)`</sub>|<sup><sub>`2`</sub></sup>|<sub>This method returns the index where an item is found in the list.</sub>|
-|<sub>`my_list.sort()`</sub>|<sup><sub>`None`</sub></sup>|<sub>Nothing is returned, but the list is sorted in ascending order.</sub>|
-|<sub>`my_list.reverse()`</sub>|<sup><sub>`None`</sub></sup>|<sub>Nothing is returned, but the list is sorted in descending order.</sub>|
-|<sub>`del my_list[1]`</sub>|<sup><sub>`[11, 3, 4, 5]`</sub></sup>|<sub>This function deletes an item from a specific index in the list.</sub>|
-|<sub>`min(my_list)`</sub>|<sup><sub>`3`</sub></sup>|<sub>Returns the largest value from the list.</sub>|
-|<sub>`max(my_list)`</sub>|<sup><sub>`12`</sub></sup>|<sub>Returns the smallest value from the list.</sub>|
-
-<sub><sup><sup>1</sup><i>Source:</i> Gaddis, T. (2015). <i>Starting out with python.</i> Boston: Pearson.</sup></sub>
-
-# <a name="numformat">Number formatting</a>
-
-You can format floating-point numbers, integers, numbers in scientific notation, and percentages by using the built-in `format()` function. The `format()` function accepts two arguments: a number and a notation (within quotes) which specifies how to format the number. Table 5 shows some examples of how this function works.
-
-**Table 5. Examples of the various uses of the `format()` function**<sup>1</sup>
-
-|Example `format()`|Result|Description|
-|-----------+-----------+-------|
-|<sub>`format(1111.9876, '.2f')`</sub>|<sup><sub>`111.99`</sub></sup>|<sub>`.2` specifies the decimal place to which the number should be rounded. This number can  be changed depending on your needs. Meanwhile, `f` specifies that its a floating point number.</sub>|
-|<sub>`format(111.9876, 'f')`</sub>|<sup><sub>`1,111.9876`</sub></sup>|<sub>The comma in the second argument indicates that the number should be comma separated.</sub>|
-|<sub>`format(1.9876, '15f')`</sub>|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<sup><sub>`1.9876`</sub></sup>|<sub>`15` specifies the minimum number of spaces that the number should occupy. This number can be changed depending on your needs.</sub>|
-|<sub>`format(1111.9876, '15,.2f)`</sub>|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<sup><sub>`1,111.99`</sub></sup>|<sub>This shows a combination of all of the above formats. Any combination of the above can be used depending on your needs.</sub>|
-|<sub>`format(1111, ',d')`</sub>|<sup><sub>`1,111`</sub></sup>|<sub>The comma in the second argument indicates that the number should be comma separated. The `d` indicates that the number is an integer.</sub>|
-|<sub>`format(1111, '15,d')`</sub>|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<sup><sub>`1,111`</sub></sup>|<sub>`15` specifies the minimum number of spaces that the integer should occupy. This number can be changed depending on your needs.</sub>|
-|<sub>`format(0.9876, '.2%')`</sub>|<sup><sub>`98.76%`</sub></sup>|<sub>`%` multiplies the number by 100 and appends a percent sign to the end. `.2` specifies the decimal place to which the floating-point number should be rounded; this can be omitted or modified to fit your needs</sub>|
-
-<sub><sup><sup>1</sup><i>Source:</i> Gaddis, T. (2015). <i>Starting out with python.</i> Boston: Pearson.</sup></sub>
-
-# <a name="operators">Operators</a>
-
-Table 6 shows Python's math, relational and logical operators. These can be used to do various things such as perform math operations, write statements, write Boolean expressions, or create control structures.
-
-**Table 6. Python operators**<sup>1</sup>
+**Table 4. Python operators**<sup>1</sup>
 
 Operator | Name/Description | Type
 ----- | ----- | -----
@@ -135,6 +80,61 @@ Operator | Name/Description | Type
 `and` | Returns true if the Boolean expressions to its left and right are both true. Otherwise, it returns false. | Logical
 `or` | Returns true if at least one of the Boolean expressions to its left and right is true. If neither is true, it returns false. | Logical
 `not` | Only evaluates one Boolean expression to its right for its opposite truth. Returns true if the expression is false. Returns false if the expression is true. | Logical
+
+<sub><sup><sup>1</sup><i>Source:</i> Gaddis, T. (2015). <i>Starting out with python.</i> Boston: Pearson.</sup></sub>
+
+# <a name="opprecedence">Math operator precedence</a>
+
+The order of operations in Python is similar to that which you probably learned in math class, except that some operations are grouped into tiers. The following list shows the order in which math operations are performed in Python (Gaddis, 2015):
+
+1. Anything in parenthesis is done first.
+   * `()`
+2. Then exponents are performed.
+   * `**`
+3. Then multiplication, remainder and division operators are performed as they appear from left to right in the statement.
+   * `*` `/` `//` `%` 
+4. Finally, addition and subtraction are performed as they appear from left to right in the statement.
+   * `+` `-`
+
+# <a name="modlists">Modifying lists</a>
+
+Table 5 shows some methods and functions that can be used to modify lists. The table's examples work with the following list:
+
+{% highlight py %}
+my_list = [11, 12, 3, 4, 5]
+{% endhighlight %}
+
+**Table 5. Methods and functions for modifying lists**<sup>1</sup>
+
+|Method or Function|Result|Description|
+|-----------+-----------+-------|
+|<sub>`my_list.append(10)`</sub>|<sup><sub>`[11, 12, 3, 4, 5, 10]`</sub></sup>|<sub>This method appends an item to the list's end.</sub>|
+|<sub>`my_list.insert(2, 10)`</sub>|<sup><sub>`[11, 12, 10, 3, 4, 5]`</sub></sup>|<sub>This method inserts an item (the second argument) into a specific index (indicated by the first argument).</sub>|
+|<sub>`my_list.remove(5)`</sub>|<sup><sub>`[11, 12, 3, 4]`</sub></sup>|<sub>This method looks for an item and removes it from the list.</sub>|
+|<sub>`my_list.index(3)`</sub>|<sup><sub>`2`</sub></sup>|<sub>This method returns the index where an item is found in the list.</sub>|
+|<sub>`my_list.sort()`</sub>|<sup><sub>`None`</sub></sup>|<sub>Nothing is returned, but the list is sorted in ascending order.</sub>|
+|<sub>`my_list.reverse()`</sub>|<sup><sub>`None`</sub></sup>|<sub>Nothing is returned, but the list is sorted in descending order.</sub>|
+|<sub>`del my_list[1]`</sub>|<sup><sub>`[11, 3, 4, 5]`</sub></sup>|<sub>This function deletes an item from a specific index in the list.</sub>|
+|<sub>`min(my_list)`</sub>|<sup><sub>`3`</sub></sup>|<sub>Returns the largest value from the list.</sub>|
+|<sub>`max(my_list)`</sub>|<sup><sub>`12`</sub></sup>|<sub>Returns the smallest value from the list.</sub>|
+
+<sub><sup><sup>1</sup><i>Source:</i> Gaddis, T. (2015). <i>Starting out with python.</i> Boston: Pearson.</sup></sub>
+
+# <a name="numformat">Number formatting</a>
+
+You can format floating-point numbers, integers, numbers in scientific notation, and percentages by using the built-in `format()` function. The `format()` function accepts two arguments: a number and a notation (within quotes) which specifies how to format the number. Table 6 shows some examples of how this function works.
+
+**Table 6. Examples of the various uses of the `format()` function**<sup>1</sup>
+
+|Example `format()`|Result|Description|
+|-----------+-----------+-------|
+|<sub>`format(1111.9876, '.2f')`</sub>|<sup><sub>`111.99`</sub></sup>|<sub>`.2` specifies the decimal place to which the number should be rounded. This number can  be changed depending on your needs. Meanwhile, `f` specifies that its a floating point number.</sub>|
+|<sub>`format(111.9876, 'f')`</sub>|<sup><sub>`1,111.9876`</sub></sup>|<sub>The comma in the second argument indicates that the number should be comma separated.</sub>|
+|<sub>`format(1.9876, '15f')`</sub>|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<sup><sub>`1.9876`</sub></sup>|<sub>`15` specifies the minimum number of spaces that the number should occupy. This number can be changed depending on your needs.</sub>|
+|<sub>`format(1111.9876, '15,.2f)`</sub>|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<sup><sub>`1,111.99`</sub></sup>|<sub>This shows a combination of all of the above formats. Any combination of the above can be used depending on your needs.</sub>|
+|<sub>`format(1111, ',d')`</sub>|<sup><sub>`1,111`</sub></sup>|<sub>The comma in the second argument indicates that the number should be comma separated. The `d` indicates that the number is an integer.</sub>|
+|<sub>`format(1111, '15,d')`</sub>|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<sup><sub>`1,111`</sub></sup>|<sub>`15` specifies the minimum number of spaces that the integer should occupy. This number can be changed depending on your needs.</sub>|
+|<sub>`format(0.9876, '.2%')`</sub>|<sup><sub>`98.76%`</sub></sup>|<sub>`%` multiplies the number by 100 and appends a percent sign to the end. `.2` specifies the decimal place to which the floating-point number should be rounded; this can be omitted or modified to fit your needs</sub>|
 
 <sub><sup><sup>1</sup><i>Source:</i> Gaddis, T. (2015). <i>Starting out with python.</i> Boston: Pearson.</sup></sub>
 
