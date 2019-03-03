@@ -7,10 +7,10 @@ Tables and lists for those moments when you need to quickly find a bit of Python
 
 1. [Built-in functions](#builtin)
 2. [Keywords](#keywords)
-3. [Math operator precedence](#opprecedence)
-4. [Modifying lists](#modlists)
-5. [Number formatting](#numformat)
-6. [Operators](#operators)
+3. [Operators](#operators)
+4. [Math operator precedence](#opprecedence)
+5. [Modifying lists](#modlists)
+6. [Number formatting](#numformat)
 7. [Sequence slicing](#seqslice)
 8. [Variable naming rules](#varnaming)
 
@@ -56,7 +56,7 @@ Table 3 shows Python's keywords (aka, reserved words). Each of these serves a sp
 
 <sub><sup><sup>1</sup><i>Source:</i> Gaddis, T. (2015). <i>Starting out with python.</i> Boston: Pearson.</sup></sub>
 
-# <a name="operators">Math operators</a>
+# <a name="operators">Operators</a>
 
 Table 4 shows Python's math, relational and logical operators. These can be used to do various things such as perform math operations, write statements, write Boolean expressions, or create control structures.
 
