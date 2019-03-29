@@ -129,7 +129,7 @@ You can format floating-point numbers, integers, numbers in scientific notation,
 |Example `format()`|Result|Description|
 |-----------+-----------+-------|
 |<sub>`format(1111.9876, '.2f')`</sub>|<sup><sub>`111.99`</sub></sup>|<sub>`.2` specifies the decimal place to which the number should be rounded. This number can  be changed depending on your needs. Meanwhile, `f` specifies that its a floating point number.</sub>|
-|<sub>`format(111.9876, 'f')`</sub>|<sup><sub>`1,111.9876`</sub></sup>|<sub>The comma in the second argument indicates that the number should be comma separated.</sub>|
+|<sub>`format(111.9876, ',f')`</sub>|<sup><sub>`1,111.9876`</sub></sup>|<sub>The comma in the second argument indicates that the number should be comma separated.</sub>|
 |<sub>`format(1.9876, '15f')`</sub>|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<sup><sub>`1.9876`</sub></sup>|<sub>`15` specifies the minimum number of spaces that the number should occupy. This number can be changed depending on your needs.</sub>|
 |<sub>`format(1111.9876, '15,.2f)`</sub>|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<sup><sub>`1,111.99`</sub></sup>|<sub>This shows a combination of all of the above formats. Any combination of the above can be used depending on your needs.</sub>|
 |<sub>`format(1111, ',d')`</sub>|<sup><sub>`1,111`</sub></sup>|<sub>The comma in the second argument indicates that the number should be comma separated. The `d` indicates that the number is an integer.</sub>|
